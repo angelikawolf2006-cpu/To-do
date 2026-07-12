@@ -1,6 +1,10 @@
 print("Meine To-Do-Liste")
 
+aufgaben = []
+
 aufgabe = input("Was möchtest du hinzufügen? ")
 
-print("Deine Aufgabe ist:")
-print(aufgabe)
+aufgaben.append(aufgabe)
+
+print("Deine Aufgaben:")
+print(aufgaben)
