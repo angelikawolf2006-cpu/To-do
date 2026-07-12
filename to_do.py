@@ -4,6 +4,9 @@ aufgaben = []
 
 aufgabe = input("Was möchtest du hinzufügen? ")
 
+if aufgabe == "fertig":
+    break
+
 aufgaben.append(aufgabe)
 
 print("Deine Aufgaben:")
